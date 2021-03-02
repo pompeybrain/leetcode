@@ -36,6 +36,6 @@ var mergeTwoLists = function (l1, l2) {
   if (l2) p.next = l2;
   return guard.next;
 };
-// @lc code=end
 
-visitLink(mergeTwoLists(arrToLink([]), arrToLink([0])));
+// @lc code=end
+visitLink(mergeTwoLists(arrToLink([1, 4, 5]), arrToLink([1, 3, 4])));
